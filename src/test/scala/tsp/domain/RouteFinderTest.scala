@@ -5,7 +5,7 @@ import org.scalatest.FunSuite
 import org.scalatest.junit.JUnitRunner
 
 @RunWith(classOf[JUnitRunner])
-class RouteBuilderTest extends FunSuite {
+class RouteFinderTest extends FunSuite {
 
   val legAB5 = Leg("AB5")
   val legBC4 = Leg("BC4")
@@ -20,7 +20,7 @@ class RouteBuilderTest extends FunSuite {
   val legs = Set[Leg](legAB5, legBC4, legCD8, legDC8, legDE6, legAD5, legCE2, legEB3, legAE7)
   val finder = RouteFinder(legs)
   
-  test("route builder with duplicate CD leg should result in AssertionError") {
+  test("route finder with duplicate CD leg should result in AssertionError") {
 	val legCD3 = Leg("CD3")
 	intercept[AssertionError] {
       RouteFinder(legs + legCD3)
