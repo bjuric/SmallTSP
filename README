@@ -6,7 +6,7 @@ Small TSP (Travelling Salesman Problem)
 Description
 -----------
 
-Given a list of legs of form:
+Given a set of legs of form:
 
   ([A-Z]{2})(\d+) 
 
