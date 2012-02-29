@@ -1,4 +1,63 @@
-Small Travelling Salesman Problem.
+=======================================
+Small TSP (Travelling Salesman Problem)
+=======================================
 
-See SmallTSP.ppt for high level introduction.
+-----------
+Description
+-----------
 
+Given a list of legs of form:
+
+  ([A-Z]{2})(\d+) 
+
+    where:
+  
+    ([A-Z]{2}) is a path from an origin to a destination
+                 - the first character is the origin
+                 - the second character is the destination
+         (\d+) is the unit distance between the origin and destination
+
+This program solves the following problems:
+
+ 1. The distance of route ABC
+ 2. The distance of route AD 
+ 3. The distance of route ADC
+ 4. The distance of route AEBCD
+ 5. The distance of route AED
+ 6. All routes starting at C and ending at C with a maximum of 3 legs
+ 7. All routes starting at A and ending at C with exactly 4 legs
+ 8. The shortest route (in terms of distance) from A to C
+ 9. The shortest route (in terms of distance) from B to B
+10. All routes from C to C with a distance of less than 30 units
+
+-----
+Usage
+-----
+
+Usage:
+  scala tsp.SmallTSP <leg1> <leg2> ..<legN>
+
+------------
+Sample Usage
+------------
+
+scala tsp.SmallTSP AB5 BC4 CD8 DC8 DE6 AD5 CE2 EB3 AE7
+
+Yields the following output:
+
+ 1. Distance of route ABC = 9
+ 2. Distance of route AD = 5
+ 3. Distance of route ADC = 13
+ 4. Distance of route AEBCD = 22
+ 5. Distance of route AED = No such route: Path ED does not exist
+ 6. Routes from C to C having at most 3 stops = CDC, CEBC
+ 7. Routes from A to C having exactly 4 stops = ABCDC, ADEBC, ADCDC
+ 8. Shortest route from A to C = ABC
+ 9. Shortest route from B to B = BCEB
+10. Routes from C to C having distance less than 30 = CDEBC, CDC, CDCEBC, CEBC, CEBCDC, CEBCEBC, CEBCEBCEBC
+
+---------
+Resources
+---------
+
+SmallTSP.ppt
