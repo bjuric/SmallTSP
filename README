@@ -66,11 +66,11 @@ For an input graph of:
       EB3 = edge connecting point E to point B having length 3
       AE7 = edge connecting point A to point E having length 7
   
-Usage would be:
+The usage would be:
 
   scala tsp.SmallTSP AB5 BC4 CD8 DC8 DE6 AD5 CE2 EB3 AE7
 
-Result would be:
+The result would be:
 
  1. Length of tour ABC = 9
  2. Length of tour AD = 5
