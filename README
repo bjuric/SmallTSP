@@ -16,10 +16,6 @@ of the path of the other edge are the same point. The total length of a tour
 is equal to the sum of all of its edges. A given set of edges in a given set 
 of points is called a graph.
 
-The TSP is essentially concerned with the challenge of finding the shortest 
-length tour that starts at a point in a graph and visits every other point 
-before returning back to the point from which it started.
-
 Given a graph of edges of form:
 
   ([A-Z]{2})(\d+) 
@@ -31,7 +27,7 @@ Given a graph of edges of form:
      and (\d+) is the length of the path in terms of a unit length
                - for example, 5 equals 5 metres for a unit length of 1 metre
 
-This program solves the following problems:
+This program solves the following:
 
  1. The length of tour ABC
  2. The length of tour AD
@@ -48,7 +44,6 @@ This program solves the following problems:
 Usage
 -----
 
-Usage:
   scala tsp.SmallTSP <edge1> <edge2> ..<edgeN>
 
 ------------
@@ -71,11 +66,11 @@ For an input graph of:
       EB3 = edge connecting point E to point B having length 3
       AE7 = edge connecting point A to point E having length 7
   
-Invoking:
+Usage would be:
 
   scala tsp.SmallTSP AB5 BC4 CD8 DC8 DE6 AD5 CE2 EB3 AE7
 
-Would yield the following output:
+Result would be:
 
  1. Length of tour ABC = 9
  2. Length of tour AD = 5
