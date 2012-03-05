@@ -73,7 +73,3 @@ AB5 BC4 CD8 DC8 DE6 AD5 CE2 EB3 AE7
 10. Tours from C to C having length less than 30  
     = CDEBC, CDC, CDCEBC, CEBC, CEBCDC, CEBCEBC, CEBCEBCEBC
 
-Resources
----------
-
-[SmallTSP.ppt](SmallTSP/blob/master/SmallTSP.ppt)
