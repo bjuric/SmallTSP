@@ -86,4 +86,4 @@ where
 Resources
 ---------
 
-[SmallTSP.ppt](SmallTSP/SmallTSP.ppt)
+[SmallTSP.ppt](SmallTSP/blob/master/SmallTSP.ppt)
