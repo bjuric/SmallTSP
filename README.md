@@ -22,11 +22,9 @@ where
 
 - ([A-Z]{2})
   - is a path from an origin to a destination
-  - for example, AB is a path from point A to point B
   
 - (\d+) 
-  - is the length of the path in terms of a unit length
-  - for example, 5 equals 5 metres for a unit length of 1 metre
+  - is the length in terms of an arbitrary unit
 
 **This program solves the following**
 
@@ -68,5 +66,6 @@ Sample Usage
 7. Tours from A to C having exactly 4 edges = ABCDC, ADEBC, ADCDC
 8. Shortest tour from A to C = ABC
 9. Shortest tour from B to B = BCEB
-10. Tours from C to C having length less than 30 = CDEBC, CDC, CDCEBC, CEBC, CEBCDC, CEBCEBC, CEBCEBCEBC
+10. Tours from C to C having length less than 30 
+    = CDEBC, CDC, CDCEBC, CEBC, CEBCDC, CEBCEBC, CEBCEBCEBC
 
