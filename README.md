@@ -16,19 +16,17 @@ set of points is called a graph.
 
 **Given a graph of edges of form**
 
-> ([A-Z]{2})(\d+)
+([A-Z]{2})(\d+)
 
-> > where
+where
 
-> > - ([A-Z]{2})
-
-> > > > is a path from an origin to a destination
-> > > > for example, AB is a path from point A to point B
-
-> - (\d+) 
-
-> > > > is the length of the path in terms of a unit length
-> > > > for example, 5 equals 5 metres for a unit length of 1 metre
+- ([A-Z]{2})
+  - is a path from an origin to a destination
+  - for example, AB is a path from point A to point B
+  
+- (\d+) 
+  - is the length of the path in terms of a unit length
+  - for example, 5 equals 5 metres for a unit length of 1 metre
 
 **This program solves the following**
 
@@ -53,19 +51,19 @@ Sample Usage
 
 **For an input graph of**
 
-> AB5 BC4 CD8 DC8 DE6 AD5 CE2 EB3 AE7
+AB5 BC4 CD8 DC8 DE6 AD5 CE2 EB3 AE7
   
-> > where
+where
 
-> > > AB5 = edge connecting point A to point B having length 5
-      BC4 = edge connecting point B to point C having length 4 
-      CD8 = edge connecting point C to point D having length 8
-      DC8 = edge connecting point D to point C having length 8
-      DE6 = edge connecting point D to point E having length 6
-      AD5 = edge connecting point A to point D having length 5
-      CE2 = edge connecting point C to point E having length 2
-      EB3 = edge connecting point E to point B having length 3
-      AE7 = edge connecting point A to point E having length 7
+- AB5 = edge connecting point A to point B having length 5
+- BC4 = edge connecting point B to point C having length 4 
+- CD8 = edge connecting point C to point D having length 8
+- DC8 = edge connecting point D to point C having length 8
+- DE6 = edge connecting point D to point E having length 6
+- AD5 = edge connecting point A to point D having length 5
+- CE2 = edge connecting point C to point E having length 2
+- EB3 = edge connecting point E to point B having length 3
+- AE7 = edge connecting point A to point E having length 7
   
 **The usage would be**
 
@@ -88,4 +86,4 @@ Sample Usage
 Resources
 ---------
 
-[SmallTSP.ppt](SmallTSP.ppt)
+[SmallTSP.ppt](SmallTSP/SmallTSP.ppt)
