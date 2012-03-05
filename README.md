@@ -56,14 +56,14 @@ AB5 BC4 CD8 DC8 DE6 AD5 CE2 EB3 AE7
 where
 
 - AB5 = edge connecting point A to point B having length 5
-- BC4 = edge connecting point B to point C having length 4 
-- CD8 = edge connecting point C to point D having length 8
-- DC8 = edge connecting point D to point C having length 8
-- DE6 = edge connecting point D to point E having length 6
-- AD5 = edge connecting point A to point D having length 5
-- CE2 = edge connecting point C to point E having length 2
-- EB3 = edge connecting point E to point B having length 3
-- AE7 = edge connecting point A to point E having length 7
+  BC4 = edge connecting point B to point C having length 4 
+  CD8 = edge connecting point C to point D having length 8
+  DC8 = edge connecting point D to point C having length 8
+  DE6 = edge connecting point D to point E having length 6
+  AD5 = edge connecting point A to point D having length 5
+  CE2 = edge connecting point C to point E having length 2
+  EB3 = edge connecting point E to point B having length 3
+  AE7 = edge connecting point A to point E having length 7
   
 **The usage would be**
 
