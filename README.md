@@ -7,24 +7,20 @@ Description
 In the TSP, a tour is a line connecting a set of points.  Every tour has an 
 origin and a destination at either the same point or at different points. The 
 line segments connecting pairs of points together are called edges. Every 
-edge is a fixed length path from one point to another. Two edges are linked 
-if the destination of the path of one edge and the origin of the path of the 
-other edge are the same point. A tour can pass through one edge or many 
-linked edges. The total length of a tour is equal to the sum of the lengths 
-of the edges it passes through. The set of known and valid edges for a given 
-set of points is called a graph.
+edge is a path of fixed length from one point to another. Two edges are 
+linked if the destination of the path of one edge and the origin of the path 
+of the other edge are the same point. A tour can pass through one edge or 
+many linked edges. The total length of a tour is equal to the sum of the 
+lengths of the edges it passes through. The set of known and valid edges for 
+a given set of points is called a graph.
 
 **Given a graph of edges of form**
 
 ([A-Z]{2})(\d+)
 
 where
-
-- ([A-Z]{2})
-  - is a path from one point to another
-  
-- (\d+) 
-  - is the length in arbitrary units
+- ([A-Z]{2}) is a path from one point to another
+- (\d+) is the length in arbitrary units
 
 **This program solves the following**
 
