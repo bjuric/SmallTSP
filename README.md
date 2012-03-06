@@ -5,13 +5,13 @@ Description
 -----------
 
 In the TSP, a tour is a line connecting a set of points.  Every tour has an 
-origin and a destination which may or may not be the same point. The line 
-segment between each pair of connected points in a tour is called an edge. 
-Every edge has a path and a length. A path has an origin and a destination. 
-A tour can consist of either one edge or many linked edges. Two edges are 
-linked if the destination of the path of one edge and the origin of the path 
-of the other edge are the same point. The total length of a tour is equal to 
-the sum of the lengths of all of its edges. A given set of edges for a given 
+origin and a destination at either the same point or at different points. The 
+line segments connecting pairs of points together are called edges. Every 
+edge is a fixed length path from one point to another. Two edges are linked 
+if the destination of the path of one edge and the origin of the path of the 
+other edge are the same point. A tour can pass through one edge or many 
+linked edges. The total length of a tour is equal to the sum of the lengths 
+of the edges it passes through. The set of known and valid edges for a given 
 set of points is called a graph.
 
 **Given a graph of edges of form**
@@ -21,10 +21,10 @@ set of points is called a graph.
 where
 
 - ([A-Z]{2})
-  - is a path from an origin to a destination
+  - is a path from one point to another
   
 - (\d+) 
-  - is the length in terms of an arbitrary unit
+  - is the length in arbitrary units
 
 **This program solves the following**
 
