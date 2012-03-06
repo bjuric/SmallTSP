@@ -19,6 +19,7 @@ a given set of points is called a graph.
 ([A-Z]{2})(\d+)
 
 where
+
 - ([A-Z]{2}) is a path from one point to another
 - (\d+) is the length in arbitrary units
 
