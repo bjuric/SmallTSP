@@ -18,9 +18,10 @@ set of points is called a graph.
 
 ([A-Z]{2})(\d+)
 
-- where
-  - ([A-Z]{2}) is a path from one point to another
-  - (\d+) is the path length in arbitrary units
+> where
+
+> - ([A-Z]{2}) is a path from one point to another
+> - (\d+) is the path length in arbitrary units
 
 **This program solves the following**
 
